@@ -1,0 +1,954 @@
+minecraft:leather_chestplate => [
+	minecraft:enchantments ->
+	                          	{ "minecraft:mending"              : 1,
+	                          	  "minecraft:projectile_protection": 3,
+	                          	  "minecraft:protection"           : 5,
+	                          	  "minecraft:thorns"               : 5,
+	                          	  "minecraft:unbreaking"           : 7
+	                          	}
+	minecraft:enchantable ->
+	                         	{ "value": 15
+	                         	}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:damage ->
+	                    	0
+	minecraft:max_damage ->
+	                        	500
+	minecraft:equippable ->
+	                        	{ "asset_id"   : "minecraft:leather",
+	                        	  "equip_sound": "minecraft:item.armor.equip_leather",
+	                        	  "slot"       : "chest"
+	                        	}
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:item_name ->
+	                       	{ "translate": "item.minecraft.leather_chestplate"
+	                       	}
+	minecraft:tooltip_display ->
+	                             	{ "hidden_components": list[2] [
+	                             	    "minecraft:trim",
+	                             	    "minecraft:dyed_color"
+	                             	  ]
+	                             	}
+	minecraft:rarity ->
+	                    	"common"
+	minecraft:max_stack_size ->
+	                            	1
+	minecraft:lore ->
+	                  	list[17] [
+	                  	  { "extra": list[17] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "M",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#3E629C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#567194",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "x ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#859083",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "D",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9D9F7A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "u",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B5AE72",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#CCBE69",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E4CD61",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "b",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E4CD61",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "l",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#CCBE69",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B5AE72",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9D9F7A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "y",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#859083",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ": ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#567194",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "5",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#3E629C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "0",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "0",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[22] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "       ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= ? =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "     ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "dark_gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "An iconic black and white buffalo plaid suit"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "        ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "jacket worn by Benny, the secondary"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "       ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : "antagonist in Fallout: New Vegas. Benny"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "      ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "leads the Chairmen in New Vegas, who plot"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "    ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "dark_gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "to overthrow Mr. House and take control of"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "    ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "New Vegas. At the beginning of the game, the"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Courier is captured by Benny and his accomplices,",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "   ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "his delivery stolen, mortally wounded and left"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_gray",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "for dead. This sets off the chain of events of the",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "gray",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "main questline in which the Courier seeks revenge",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "   ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : "against Benny, and recovery of the important"
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "                 ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : "package for Mr. House.  "
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[22] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "       ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= ? =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "= =",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "-",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#0D1A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "                                ",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[17] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_purple",
+	                  	        "italic"       : 1b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "                   ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Fa",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#3E629C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "l",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#567194",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "l",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6D818B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "o",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#859083",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "u",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9D9F7A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#CCBE69",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "S",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E4CD61",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDC58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E1CB62",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C7BA6B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#ACA975",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#768688",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "1",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5C7592",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "9",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#41649B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "/",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#2653A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "27",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:attribute_modifiers ->
+	                                 	list[3] [
+	                                 	  { "amount"   : 8.0d,
+	                                 	    "id"       : "minecraft:e4117266-42ab-49e5-a643-f8d5532a9e5a",
+	                                 	    "operation": "add_value",
+	                                 	    "slot"     : "chest",
+	                                 	    "type"     : "minecraft:armor"
+	                                 	  },
+	                                 	  { "amount"   : 3.0d,
+	                                 	    "id"       : "minecraft:7efa714c-9431-4c2b-bcb4-4463d44ae828",
+	                                 	    "operation": "add_value",
+	                                 	    "slot"     : "chest",
+	                                 	    "type"     : "minecraft:armor_toughness"
+	                                 	  },
+	                                 	  { "amount"   : 2.0d,
+	                                 	    "id"       : "minecraft:a8308605-6b4f-407a-abc6-f0e6b36a7cc3",
+	                                 	    "operation": "add_value",
+	                                 	    "slot"     : "chest",
+	                                 	    "type"     : "minecraft:max_health"
+	                                 	  }
+	                                 	]
+	minecraft:repairable ->
+	                        	{ "items": "#minecraft:repairs_leather_armor"
+	                        	}
+	minecraft:item_model ->
+	                        	"minecraft:leather_chestplate"
+	minecraft:trim ->
+	                  	{ "material": "minecraft:quartz",
+	                  	  "pattern" : "minecraft:bolt"
+	                  	}
+	minecraft:custom_name ->
+	                         	{ "extra": list[11] [
+	                         	    { "color" : "white",
+	                         	      "italic": 1b,
+	                         	      "text"  : "                       "
+	                         	    },
+	                         	    { "color" : "dark_gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "B"
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : "e"
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "n"
+	                         	    },
+	                         	    { "color" : "dark_gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "n"
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : "y"
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "'s "
+	                         	    },
+	                         	    { "color" : "dark_gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "S"
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : "u"
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "i"
+	                         	    },
+	                         	    { "color" : "dark_gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : "t"
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+	minecraft:dyed_color ->
+	                        	4673362
+

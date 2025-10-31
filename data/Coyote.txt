@@ -1,0 +1,469 @@
+minecraft:player_head => [
+	minecraft:enchantments ->
+	                          	{}
+	minecraft:tooltip_display ->
+	                             	{}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:rarity ->
+	                    	"uncommon"
+	minecraft:max_stack_size ->
+	                            	64
+	minecraft:lore ->
+	                  	list[9] [
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#F8A31E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Coyote - Coyote has been compared",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#F9B54B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "to both the Scandinavian Loki,",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FAC778",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "and also Prometheus, who shared",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FCDAA5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "with Coyote the trick of having",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FDECD2",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "stolen fire from the gods as a",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#FFFFFF",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "gift for mankind.",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  "",
+	                  	  { "extra": list[20] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#4ED2A5",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "A",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5DCD98",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "n",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6DC78B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "c",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7CC27E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#8BBD71",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9AB864",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "n",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#AAB257",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B9AD4A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "G",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C8A83D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "o",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D7A330",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "d ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#DE9C2D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "S",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#DD9434",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#DC8B3B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#DA8342",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D97B49",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D77350",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D66B57",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "23",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D5625E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "/",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D35A65",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "2",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D2526C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "7",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[17] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#295514",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "N",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#4D711D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#718E27",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#95AA30",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B9C63A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "v",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#DDE343",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E8EB5A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "A",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E7E977",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "m",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E6E895",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E5E6B2",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E4E4CF",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E0D8D8",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "c",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D8B6B6",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D09393",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "n ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C87171",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "G",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#BF4F4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "o",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B72D2D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "d",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:attribute_modifiers ->
+	                                 	list[0] []
+	minecraft:equippable ->
+	                        	{ "slot"     : "head",
+	                        	  "swappable": 0b
+	                        	}
+	minecraft:item_model ->
+	                        	"minecraft:player_head"
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:item_name ->
+	                       	{ "translate": "block.minecraft.player_head"
+	                       	}
+	minecraft:profile ->
+	                     	{ "id"        : int[4] {
+	                     	    0x17C25FFD, 0x89D0463C, 0x8FD2CA15, 0x1865203A
+	                     	  },
+	                     	  "name"      : "",
+	                     	  "properties": list[1] [
+	                     	    { "name" : "textures",
+	                     	      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhN2U1MWQ4MDZiMTY2OTZmYmRjZmU5ODEyYTQzNjhlNDg0NWFjY2I0YWNlZmZkNzlkMzMwZTdhNGM5NTYifX19"
+	                     	    }
+	                     	  ]
+	                     	}
+	minecraft:custom_name ->
+	                         	{ "extra": list[6] [
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#F8A31E",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "C",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#F9B54B",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#FBC878",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "y",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#FCDAA5",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#FEEDD2",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "t",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#FFFFFF",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "e",
+	                         	      "underlined"   : 0b
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+

@@ -1,0 +1,1116 @@
+minecraft:filled_map => [
+	minecraft:enchantments ->
+	                          	{}
+	minecraft:map_color ->
+	                       	4603950
+	minecraft:map_decorations ->
+	                             	{}
+	minecraft:tooltip_display ->
+	                             	{}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:rarity ->
+	                    	"common"
+	minecraft:max_stack_size ->
+	                            	64
+	minecraft:lore ->
+	                  	list[16] [
+	                  	  { "extra": list[28] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "gray",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5DA068",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5FA56F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#61AA76",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#62AF7D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#64B485",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#66B98C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68BE93",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#69C39A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6BC8A1",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#69CBA7",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68CFAD",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#66D2B3",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#65D5BA",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#63D8C0",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#61DCC6",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#60DFCC",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5EE2D2",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5C9E67",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " The Loch Ness Monster, or Old Nessie, is an",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5EA672",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "enigma wrapped in a mystery that inhabits the",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#62B07E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "waters of Loch Ness, Scotland. The Loch Ness",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[4] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#64B688",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " monster is depicted as a sea serpent or",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68C095",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "   plesiosaur that dwells in the depths below.",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6AC69F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Local tales of an aquatic beast would explode",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6AC69F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "worldwide in 1934 with a candid snapshot. This",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68CDAA",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "  famous photograph of the monster sparked",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#65D2B4",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "  intrigue across the globe. However, monster",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#63D7BE",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "    hunters could not find her and scientific",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#60DCC8",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " evidence points to her being a hoax, including",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[16] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "black",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : ".",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5DDFCF",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "this famous photograph.",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[28] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "gray",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5DA068",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5FA56F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#61AA76",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#62AF7D",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#64B485",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#66B98C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68BE93",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#69C39A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#6BC8A1",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#69CBA7",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#68CFAD",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#66D2B3",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#65D5BA",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#63D8C0",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#61DCC6",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#60DFCC",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#5EE2D2",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  "",
+	                  	  { "extra": list[30] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "gray",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "gray",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#AA553A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "F",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B97250",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C78F65",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "b",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D6AC7B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "l",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E5C991",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#F3E7A7",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "d ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#EFF0AE",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "B",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C6D399",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9DB683",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#739A6E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#4A7D58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#216043",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#195744",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "S",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#215A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#295C5B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#315E67",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#3A6072",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#42627E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s 19/27",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:attribute_modifiers ->
+	                                 	list[0] []
+	minecraft:item_model ->
+	                        	"minecraft:filled_map"
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:item_name ->
+	                       	{ "translate": "item.minecraft.filled_map"
+	                       	}
+	minecraft:map_id ->
+	                    	367
+	minecraft:custom_name ->
+	                         	{ "extra": list[41] [
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "gray",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : " ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#5DA068",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "L",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#5EA46E",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#60A874",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "c",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#61AD7A",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "h ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#63B180",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "N",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#64B586",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "e",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#66B98C",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "s",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#67BD92",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "s ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#69C298",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "M",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#6AC69E",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#6AC9A4",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "n",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#69CCA9",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "s",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#68CFAE",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "t",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#66D2B3",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "e",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#65D4B8",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "r ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#63D7BD",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "P",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#62DAC3",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "h",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#61DDC8",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#5FDFCD",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "t",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#5EE2D2",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "gray",
+	                         	      "italic": 0b,
+	                         	      "text"  : ""
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+

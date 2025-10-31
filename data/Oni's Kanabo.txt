@@ -1,0 +1,844 @@
+minecraft:netherite_axe => [
+	minecraft:enchantments ->
+	                          	{ "minecraft:mending"   : 1,
+	                          	  "minecraft:sharpness" : 7,
+	                          	  "minecraft:unbreaking": 4
+	                          	}
+	minecraft:enchantable ->
+	                         	{ "value": 15
+	                         	}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:damage ->
+	                    	0
+	minecraft:tool ->
+	                  	{ "rules": list[2] [
+	                  	    { "blocks"           : "#minecraft:incorrect_for_netherite_tool",
+	                  	      "correct_for_drops": 0b
+	                  	    },
+	                  	    { "blocks"           : "#minecraft:mineable/axe",
+	                  	      "correct_for_drops": 1b,
+	                  	      "speed"            : 9.0f
+	                  	    }
+	                  	  ]
+	                  	}
+	minecraft:max_damage ->
+	                        	2031
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:item_name ->
+	                       	{ "translate": "item.minecraft.netherite_axe"
+	                       	}
+	minecraft:weapon ->
+	                    	{ "disable_blocking_for_seconds": 5.0f,
+	                    	  "item_damage_per_attack"      : 2
+	                    	}
+	minecraft:tooltip_display ->
+	                             	{}
+	minecraft:rarity ->
+	                    	"common"
+	minecraft:max_stack_size ->
+	                            	1
+	minecraft:lore ->
+	                  	list[11] [
+	                  	  { "extra": list[16] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B13838",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?????",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[7] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Oni are powerful demons originating in",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[5] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Japanese yokai folklore. Known for their",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[3] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "menacing auras and dark demeanors. They",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B13838",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "are typically depicted as ogre-like beings with",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[4] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "one or more horns. Viewed as destructive",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[3] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "harbingers of calamity, many practices are",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[10] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "performed to ward against onis.",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[16] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B13838",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "?????",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#7E302C",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#562623",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "???",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  "",
+	                  	  { "extra": list[30] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : " ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "color" : "white",
+	                  	        "italic": 0b,
+	                  	        "text"  : " "
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#AA553A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "F",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B97250",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C78F65",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "b",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#D6AC7B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "l",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#E5C991",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#F3E7A7",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "d ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#EFF0AE",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "B",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#C6D399",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#9DB683",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "a",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#739A6E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#4A7D58",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "t",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#216043",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s ",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#195744",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "S",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#215A4F",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#295C5B",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "r",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#315E67",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "i",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#3A6072",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "e",
+	                  	        "underlined"   : 0b
+	                  	      },
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#42627E",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "s 26/27",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:attribute_modifiers ->
+	                                 	list[1] [
+	                                 	  { "amount"   : 0.15d,
+	                                 	    "id"       : "minecraft:unknown",
+	                                 	    "operation": "add_multiplied_base",
+	                                 	    "slot"     : "mainhand",
+	                                 	    "type"     : "minecraft:movement_speed"
+	                                 	  }
+	                                 	]
+	minecraft:repairable ->
+	                        	{ "items": "#minecraft:netherite_tool_materials"
+	                        	}
+	minecraft:damage_resistant ->
+	                              	{ "types": "#minecraft:is_fire"
+	                              	}
+	minecraft:item_model ->
+	                        	"minecraft:netherite_axe"
+	minecraft:custom_name ->
+	                         	{ "extra": list[33] [
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "white",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : " ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "color" : "white",
+	                         	      "italic": 0b,
+	                         	      "text"  : " "
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#6F2B26",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "O",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#7C2E2A",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "n",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#89302D",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "i",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#973331",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "'",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#A43534",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "s ",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#B13838",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "K",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#A43534",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "a",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#973331",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "n",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#89302D",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "a",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#7C2E2A",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "b",
+	                         	      "underlined"   : 0b
+	                         	    },
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "#6F2B26",
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "o",
+	                         	      "underlined"   : 0b
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+

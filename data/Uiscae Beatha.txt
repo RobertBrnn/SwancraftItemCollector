@@ -1,0 +1,461 @@
+minecraft:potion => [
+	minecraft:consumable ->
+	                        	{ "animation"            : "drink",
+	                        	  "has_consume_particles": 0b,
+	                        	  "sound"                : "minecraft:entity.generic.drink"
+	                        	}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:attribute_modifiers ->
+	                                 	list[0] []
+	minecraft:rarity ->
+	                    	"common"
+	minecraft:item_name ->
+	                       	{ "translate": "item.minecraft.potion"
+	                       	}
+	minecraft:max_stack_size ->
+	                            	1
+	minecraft:lore ->
+	                  	list[8] [
+	                  	  { "extra": list[4] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_green",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "May your blessings outnumber",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[7] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "The shamrocks that grow,",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[7] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "gold",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "And may trouble avoid you",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[12] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "dark_green",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "Wherever you go.",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[13] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "white",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "~An Irish Toast",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[22] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " "
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "color" : "dark_green",
+	                  	        "extra" : list[27] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#1D9B64",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "S",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2BA16E",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "t",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#39A877",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : ". ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#56B48B",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "P",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#64BA94",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "a",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#72C19E",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "d",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#80C7A8",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "d",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#8ECDB2",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "y",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#9CD3BB",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "'",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#AADAC5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "s ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#C7E6D8",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "D",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#D5ECE2",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "a",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#E3F3EC",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "y ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "white",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "C",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FFF7F3",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "o",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FFEFE6",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "l",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FFE7DA",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "l",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FEDFCD",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "e",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FED7C1",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "c",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FECFB4",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "t",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FEC7A8",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "i",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FEC09B",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "o",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FEB88F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "n 3",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FD985D",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "/",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FD9050",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "1",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FD8844",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "2 ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "color" : "dark_green",
+	                  	            "italic": 1b,
+	                  	            "text"  : "?"
+	                  	          }
+	                  	        ],
+	                  	        "italic": 1b,
+	                  	        "text"  : "? "
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[22] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " "
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:tooltip_display ->
+	                             	{ "hidden_components": list[1] [
+	                             	    "minecraft:enchantments"
+	                             	  ]
+	                             	}
+	minecraft:use_remainder ->
+	                           	{ "count": 1,
+	                           	  "id"   : "minecraft:glass_bottle"
+	                           	}
+	minecraft:item_model ->
+	                        	"minecraft:potion"
+	minecraft:potion_contents ->
+	                             	{ "potion": "minecraft:luck"
+	                             	}
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:enchantments ->
+	                          	{ "minecraft:lure": 255
+	                          	}
+	minecraft:custom_name ->
+	                         	{ "extra": list[15] [
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    { "bold"         : 0b,
+	                         	      "color"        : "dark_green",
+	                         	      "extra"        : list[5] [
+	                         	        { "color" : "green",
+	                         	          "italic": 0b,
+	                         	          "text"  : "sc"
+	                         	        },
+	                         	        { "color" : "dark_green",
+	                         	          "italic": 0b,
+	                         	          "text"  : "ae "
+	                         	        },
+	                         	        { "color" : "green",
+	                         	          "italic": 0b,
+	                         	          "text"  : "Be"
+	                         	        },
+	                         	        { "color" : "dark_green",
+	                         	          "italic": 0b,
+	                         	          "text"  : "at"
+	                         	        },
+	                         	        { "color" : "green",
+	                         	          "italic": 0b,
+	                         	          "text"  : "ha"
+	                         	        }
+	                         	      ],
+	                         	      "italic"       : 0b,
+	                         	      "obfuscated"   : 0b,
+	                         	      "strikethrough": 0b,
+	                         	      "text"         : "Ui",
+	                         	      "underlined"   : 0b
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+

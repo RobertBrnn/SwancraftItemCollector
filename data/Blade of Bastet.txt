@@ -1,0 +1,1057 @@
+minecraft:netherite_sword => [
+	minecraft:enchantments ->
+	                          	{ "minecraft:bane_of_arthropods": 4,
+	                          	  "minecraft:looting"           : 4,
+	                          	  "minecraft:mending"           : 1,
+	                          	  "minecraft:sharpness"         : 5,
+	                          	  "minecraft:smite"             : 4,
+	                          	  "minecraft:unbreaking"        : 5
+	                          	}
+	minecraft:enchantable ->
+	                         	{ "value": 15
+	                         	}
+	minecraft:break_sound ->
+	                         	"minecraft:entity.item.break"
+	minecraft:damage ->
+	                    	0
+	minecraft:tool ->
+	                  	{ "can_destroy_blocks_in_creative": 0b,
+	                  	  "damage_per_block"              : 2,
+	                  	  "rules"                         : list[3] [
+	                  	    { "blocks"           : "minecraft:cobweb",
+	                  	      "correct_for_drops": 1b,
+	                  	      "speed"            : 15.0f
+	                  	    },
+	                  	    { "blocks": "#minecraft:sword_instantly_mines",
+	                  	      "speed" : 3.4028235E38f
+	                  	    },
+	                  	    { "blocks": "#minecraft:sword_efficient",
+	                  	      "speed" : 1.5f
+	                  	    }
+	                  	  ]
+	                  	}
+	minecraft:max_damage ->
+	                        	2031
+	minecraft:repair_cost ->
+	                         	0
+	minecraft:item_name ->
+	                       	{ "translate": "item.minecraft.netherite_sword"
+	                       	}
+	minecraft:weapon ->
+	                    	{}
+	minecraft:tooltip_display ->
+	                             	{}
+	minecraft:rarity ->
+	                    	"common"
+	minecraft:max_stack_size ->
+	                            	1
+	minecraft:lore ->
+	                  	list[18] [
+	                  	  { "extra": list[10] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[21] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= ? =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[11] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#A8A8A8",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "A weapon wielded by the fictional hero, ",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[1] [
+	                  	      { "bold"         : 0b,
+	                  	        "color"        : "#B3AC9A",
+	                  	        "italic"       : 0b,
+	                  	        "obfuscated"   : 0b,
+	                  	        "strikethrough": 0b,
+	                  	        "text"         : "the Mistress of Mystery, popularized by Hubris Comics",
+	                  	        "underlined"   : 0b
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[2] [
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#BFB08D",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "and featured in Fallout 4 and Fallout 76. Born to two",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[5] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#CBB57F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "archaeologists as Claudia Martin, she became an",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[5] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#D7B972",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "orphan early in her childhood while her parents",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[3] [
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#E3BD64",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "investigated the pyramids in Egypt. Upon turning 18",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[3] [
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#EFC257",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "and inheriting her parents' effects, she set out to",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[6] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#EFC257",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "uncover the truth behind their disappearance.",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[5] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#E3BD64",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "She uses her training, stealth, and quick wits to",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[4] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#D7B972",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "outdo her foes, wielding her signature Regalia of",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[6] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#CBB57F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "Mystery, of which the Blade is an integral part. ",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[3] [
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#BFB08D",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "The Blade is said to be a legendary sword, lighter,.",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[6] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#B3AC9A",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "faster, and stronger than any lesser weapon,",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[6] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[1] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#A8A8A8",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "and capable of piercing any armor or barrier. ",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[10] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[21] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= ? =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "= =",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "-",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#0D1A4F",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "?",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[34] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " "
+	                  	    ],
+	                  	    "text" : ""
+	                  	  },
+	                  	  { "extra": list[22] [
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      " ",
+	                  	      { "extra": list[16] [
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "Fa",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#3E629C",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "l",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#567194",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "l",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#6D818B",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "o",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#859083",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "u",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#9D9F7A",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "t ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#CCBE69",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "S",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#E4CD61",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "e",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#FCDC58",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "r",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#E1CB62",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "i",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#C7BA6B",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "e",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#ACA975",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "s ",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#768688",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "1",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#5C7592",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "6",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#41649B",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "/",
+	                  	            "underlined"   : 0b
+	                  	          },
+	                  	          { "bold"         : 0b,
+	                  	            "color"        : "#2653A5",
+	                  	            "italic"       : 0b,
+	                  	            "obfuscated"   : 0b,
+	                  	            "strikethrough": 0b,
+	                  	            "text"         : "27",
+	                  	            "underlined"   : 0b
+	                  	          }
+	                  	        ],
+	                  	        "text" : ""
+	                  	      }
+	                  	    ],
+	                  	    "text" : ""
+	                  	  }
+	                  	]
+	minecraft:attribute_modifiers ->
+	                                 	list[3] [
+	                                 	  { "amount"   : 10.0d,
+	                                 	    "id"       : "minecraft:81404e29-ee04-4d31-85e8-72db64878d8e",
+	                                 	    "operation": "add_value",
+	                                 	    "slot"     : "mainhand",
+	                                 	    "type"     : "minecraft:attack_damage"
+	                                 	  },
+	                                 	  { "amount"   : 1.25d,
+	                                 	    "id"       : "minecraft:34c055f3-9bd7-4399-9be6-eed12259c574",
+	                                 	    "operation": "add_value",
+	                                 	    "slot"     : "mainhand",
+	                                 	    "type"     : "minecraft:attack_speed"
+	                                 	  },
+	                                 	  { "amount"   : 0.2d,
+	                                 	    "id"       : "minecraft:5298eba5-831e-472f-9715-ee1bccd267bc",
+	                                 	    "operation": "add_multiplied_total",
+	                                 	    "slot"     : "mainhand",
+	                                 	    "type"     : "minecraft:burning_time"
+	                                 	  }
+	                                 	]
+	minecraft:repairable ->
+	                        	{ "items": "#minecraft:netherite_tool_materials"
+	                        	}
+	minecraft:damage_resistant ->
+	                              	{ "types": "#minecraft:is_fire"
+	                              	}
+	minecraft:item_model ->
+	                        	"minecraft:netherite_sword"
+	minecraft:custom_name ->
+	                         	{ "extra": list[26] [
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    " ",
+	                         	    { "extra": list[1] [
+	                         	        { "bold"         : 0b,
+	                         	          "color"        : "#A8A8A8",
+	                         	          "extra"        : list[12] [
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#B2AC9C",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "l",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#BCAF91",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "a",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#C6B385",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "d",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#D1B77A",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "e ",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#E5BE63",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "o",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#EFC257",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "f ",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#DBBB6E",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "B",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#D1B77A",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "a",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#C6B385",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "s",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#BCAF91",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "t",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#B2AC9C",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "e",
+	                         	              "underlined"   : 0b
+	                         	            },
+	                         	            { "bold"         : 0b,
+	                         	              "color"        : "#A8A8A8",
+	                         	              "italic"       : 0b,
+	                         	              "obfuscated"   : 0b,
+	                         	              "strikethrough": 0b,
+	                         	              "text"         : "t",
+	                         	              "underlined"   : 0b
+	                         	            }
+	                         	          ],
+	                         	          "italic"       : 0b,
+	                         	          "obfuscated"   : 0b,
+	                         	          "strikethrough": 0b,
+	                         	          "text"         : "B",
+	                         	          "underlined"   : 0b
+	                         	        }
+	                         	      ],
+	                         	      "text" : ""
+	                         	    }
+	                         	  ],
+	                         	  "text" : ""
+	                         	}
+
