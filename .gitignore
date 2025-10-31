@@ -1,3 +1,4 @@
 staging/*
 .spyproject/*
 *.xlsb
+data/*
