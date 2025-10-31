@@ -1,4 +1,4 @@
 staging/*
 .spyproject/*
 *.xlsb
-data/*
+data/*.txt
