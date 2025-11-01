@@ -41,7 +41,6 @@ def parse_custom_effects(lore):
     
     return match_effects
     
-    
 def flatten_bundle(bundle_contents):
     item_list = []
     

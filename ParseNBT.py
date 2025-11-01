@@ -15,7 +15,7 @@ OUTPUT_DIR = "./output"
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)
 #dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt", "icharusWings.txt", "DivineBox.txt", "yellowpants.txt", "ecoDestroyer.txt"]
-#dir_list = ["DivineBox.txt"]
+#dir_list = ["Fallout 1.txt"]
 
 item_components = {}
 for file in dir_list:
@@ -40,6 +40,7 @@ modification_list = [
     {"apply_to": "lore_plaintext", "new_val": "custom_effect", "func": NBTProcessor.parse_custom_effects},
     {"apply_to": "minecraft:bundle_contents", "new_val": "contents", "func": NBTProcessor.flatten_bundle},
     {"apply_to": "minecraft:container", "new_val": "contents", "func": NBTProcessor.flatten_container},
+    {"apply_to": "minecraft:charged_projectiles", "new_val": "contents", "func": NBTProcessor.flatten_bundle},
     ]
 
 #%%

@@ -82,6 +82,37 @@ def beautify_attribute_modifiers(item):
     else:
         return {}
         
+def beautify_potion_contents(item):
+        
+    if "minecraft:potion_contents" in item.keys() and item["minecraft:potion_contents"]:
+        potion_contents = item["minecraft:potion_contents"]
+        effect_list = []
+        if "potion" in potion_contents.keys():
+            vanilla_potion = potion_contents["potion"].replace("minecraft:", "")
+            effect_list.append(f"{vanilla_potion}")
+        if "custom_effects" in potion_contents.keys():
+            custom_effects = potion_contents["custom_effects"]
+            for ce in custom_effects:
+                effect_id = ce["id"].replace("minecraft:", "")
+                dur = ce["duration"]
+                if dur == -1:
+                    dur = "inf"
+                elif dur > 0 and dur != 1:
+                    dur_min = int(dur/1200)
+                    dur_sec = round((dur - dur_min*1200)/20)
+                    dur = f" ({dur_min:02d}:{dur_sec:02d})"
+                else:
+                    dur = ""
+                    
+                amplifier = get_if_exists(ce, "amplifier", "0d")
+                amplifier = roman.toRoman(eval(amplifier[:-1]))
+                effect_list.append(f"{effect_id} {amplifier if amplifier != 'N' else ''}{dur}")
+            
+        return {
+            "potion_effects": "\n".join(effect_list)
+            }
+    else:
+        return {}
 
 def beautify_item(item):
     if isinstance(item, list):
@@ -109,6 +140,8 @@ def beautify_item(item):
         res_dict = res_dict | beautify_enchantments(item)
 
         res_dict = res_dict | beautify_attribute_modifiers(item)
+        
+        res_dict = res_dict | beautify_potion_contents(item)
         
         contents = get_if_exists(item, "contents")
         if contents:
