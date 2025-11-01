@@ -15,6 +15,7 @@ OUTPUT_DIR = "./output"
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)
 #dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt", "icharusWings.txt", "DivineBox.txt", "yellowpants.txt", "ecoDestroyer.txt"]
+#dir_list = ["DivineBox.txt"]
 
 item_components = {}
 for file in dir_list:
@@ -56,7 +57,8 @@ print(f"Preparing items {toc-tic:.2f}s")
 
 #%%
 manual_modifications = [
-    {"item_name": "Toxic Sludgehammer", "modifications": {"trail": "☣ ꓄ꋪꍏꀤ꒒ ꂦꎇ ꓄ꂦꊼꀤꉓ ꅏꍏꌗ꓄ꍟ ☣"}}
+    {"item_name": "Toxic Sludgehammer", "modifications": {"trail": "☣ ꓄ꋪꍏꀤ꒒ ꂦꎇ ꓄ꂦꊼꀤꉓ ꅏꍏꌗ꓄ꍟ ☣"}},
+    {"item_name": "The Cloak of Death", "modifications":{"trail": "🦇 𝔽𝕒𝕕𝕚𝕟𝕘 🦇 𝔼𝕔𝕙𝕠 🦇 𝕋𝕣𝕒𝕚𝕝 🦇"}},
     ]
 
 fixed_custom_items = sorted(NBTProcessor.apply_modification(custom_items, manual_modifications), key= lambda x: x["name"])
