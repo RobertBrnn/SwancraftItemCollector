@@ -238,19 +238,30 @@ def beautify_item(item):
             
         att_mod = get_if_exists(item, "minecraft:attribute_modifiers")
         if att_mod:
+
             sorted_atts = sorted(att_mod, key=lambda d: get_if_exists(d,'slot', "zzzz"))
             formatted_attributes = []
             prev_slot = ""
             for att in sorted_atts:
                 att_value = eval(att["amount"][:-1])
+                
                 slot = get_if_exists(att, "slot", "any slot")
                 if slot != prev_slot:
                     formatted_attributes.append(f"When on/in {slot}")
                 
                 att_type = att['type'].replace('minecraft:','')
-                operation_sign_dict = {"add_value": "+", "add_multiplied_base": "base +", "add_multiplied_total": "total x"}
-                operation_sign = operation_sign_dict[att['operation']]
-                formatted_att = f"  {operation_sign}{att_value} {att_type}  "
+                if att["operation"] == "add_value":
+                    att_value = int(att_value) if int(att_value) == att_value else att_value
+                    formatted_att = f"  {'+' if att_value >=0 else ''}{att_value} {att_type}"
+                elif att["operation"] =="add_multiplied_base":
+                    att_pct = att_value * 100
+                    att_pct = int(att_pct) if int(att_pct) == att_pct else att_pct
+                    formatted_att = f"  {'+' if att_pct >=0 else ''}{att_pct}% {att_type}"
+                elif att["operation"] == "add_multiplied_total":
+                    formatted_att = f"  total x{att_value+1} {att_type}"
+                else:
+                    formatted_att = ""
+                
                 formatted_attributes.append(formatted_att)
                 
                 prev_slot = slot
@@ -272,7 +283,7 @@ def beautify_item(item):
 import time
 tic = time.time()
 dir_list = os.listdir("data")
-#dir_list = ["elementsRed.txt"]
+#dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt"]
 
 item_components = {}
 for file in dir_list:
@@ -331,7 +342,3 @@ with open("staging/batch1.json", "w") as f:
 toc = time.time()
 print(f"Done writing json {toc-tic:.2f}s")
 
-#%%
-z1= fixed_custom_items[14]
-z2= fixed_custom_items[15]
-z1["minecraft_id"] == z2["minecraft_id"]
