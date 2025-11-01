@@ -3,3 +3,4 @@ staging/*
 *.xlsb
 data/*.txt
 output/*
+__pycache__/

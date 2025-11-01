@@ -37,7 +37,7 @@ def parse_custom_trail(lore):
     
 
 def parse_custom_effects(lore):
-    match_effects = re.findall(r"(?m)^[\n\s]*(CE.*\*)[\n\s]*$", lore)
+    match_effects = re.findall(r"(?m)^\W*CE *(.*)\*[\W]*$", lore)
     
     return match_effects
     
