@@ -1,0 +1,7 @@
+TO-DO
+
+- Improved beautification of attribute_modifiers
+- Splitting the singular file into multiple seperate files
+- Move beautification to seperate functions 
+- Support more nbt tags
+- Improve output so it magically works with the table filtering stuff from google sheets

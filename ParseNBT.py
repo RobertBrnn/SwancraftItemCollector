@@ -49,7 +49,7 @@ def parse_components(string, lvl = 1):
 def flatten_main_item(item):
     k = list(item.keys())[0]
     v = list(item.values())[0]
-    v["minecraft_id"] = k
+    v["minecraft_id"] = k.strip()
     return v
         
 #%%
@@ -100,7 +100,7 @@ def flatten_bundle(bundle_contents):
     
     for item in bundle_contents:
         item_components = item["components"]
-        item_components["minecraft_id"] = item["id"]
+        item_components["minecraft_id"] = item["id"].strip()
         item_components["count"] = item["count"]
     
         item_list.append(item_components)
@@ -114,7 +114,7 @@ def flatten_container(contents):
     for item_slot in contents:
         item = item_slot["item"]
         item_components = {} if "components" not in item.keys() else item["components"]
-        item_components["minecraft_id"] = item["id"]
+        item_components["minecraft_id"] = item["id"].strip()
         item_components["count"] = item["count"]
     
         item_list.append(item_components)
@@ -242,6 +242,7 @@ def beautify_item(item):
             formatted_attributes = []
             prev_slot = ""
             for att in sorted_atts:
+                att_value = eval(att["amount"][:-1])
                 slot = get_if_exists(att, "slot", "any slot")
                 if slot != prev_slot:
                     formatted_attributes.append(f"When on/in {slot}")
@@ -249,7 +250,7 @@ def beautify_item(item):
                 att_type = att['type'].replace('minecraft:','')
                 operation_sign_dict = {"add_value": "+", "add_multiplied_base": "base +", "add_multiplied_total": "total x"}
                 operation_sign = operation_sign_dict[att['operation']]
-                formatted_att = f"  {att_type} {operation_sign} {att['amount']}"
+                formatted_att = f"  {operation_sign}{att_value} {att_type}  "
                 formatted_attributes.append(formatted_att)
                 
                 prev_slot = slot
@@ -271,7 +272,7 @@ def beautify_item(item):
 import time
 tic = time.time()
 dir_list = os.listdir("data")
-dir_list = ["elementsRed.txt"]
+#dir_list = ["elementsRed.txt"]
 
 item_components = {}
 for file in dir_list:
@@ -316,7 +317,7 @@ manual_modifications = [
     {"item_name": "Toxic Sludgehammer", "modifications": {"trail": "☣ ꓄ꋪꍏꀤ꒒ ꂦꎇ ꓄ꂦꊼꀤꉓ ꅏꍏꌗ꓄ꍟ ☣"}}
     ]
 
-fixed_custom_items = apply_modification(custom_items, manual_modifications)
+fixed_custom_items = sorted(apply_modification(custom_items, manual_modifications), key= lambda x: x["name"])
 
 
 #%%
@@ -329,3 +330,8 @@ with open("staging/batch1.json", "w") as f:
 
 toc = time.time()
 print(f"Done writing json {toc-tic:.2f}s")
+
+#%%
+z1= fixed_custom_items[14]
+z2= fixed_custom_items[15]
+z1["minecraft_id"] == z2["minecraft_id"]
