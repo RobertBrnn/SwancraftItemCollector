@@ -202,6 +202,12 @@ def apply_modification(obj, modification_list):
         else:
             return obj
 
+def format_decimal(value, num_decimals):
+    
+    rounded_val = round(value, num_decimals)
+    int_rounded_val = int(rounded_val)
+
+    return int_rounded_val if int_rounded_val == rounded_val else rounded_val
 #%%
 def beautify_item(item):
     if isinstance(item, list):
@@ -211,6 +217,9 @@ def beautify_item(item):
         res_dict = {}
         res_dict["name"] = get_if_exists(item, "custom_name_plaintext")
         res_dict["minecraft_id"] = get_if_exists(item, "minecraft_id")
+        
+        unbreakable = get_if_exists(item, "minecraft:unbreakable")
+        res_dict["unbreakable"] = unbreakable is not None
         
         collection = get_if_exists(item, "collection")
         if collection:
@@ -244,6 +253,9 @@ def beautify_item(item):
             prev_slot = ""
             for att in sorted_atts:
                 att_value = eval(att["amount"][:-1])
+                if att_value == 0:
+                    next
+                att_value = format_decimal(att_value, 3)
                 
                 slot = get_if_exists(att, "slot", "any slot")
                 if slot != prev_slot:
@@ -251,17 +263,19 @@ def beautify_item(item):
                 
                 att_type = att['type'].replace('minecraft:','')
                 if att["operation"] == "add_value":
-                    att_value = int(att_value) if int(att_value) == att_value else att_value
                     formatted_att = f"  {'+' if att_value >=0 else ''}{att_value} {att_type}"
                 elif att["operation"] =="add_multiplied_base":
                     att_pct = att_value * 100
-                    att_pct = int(att_pct) if int(att_pct) == att_pct else att_pct
+                    att_pct = format_decimal(att_pct, 1)
                     formatted_att = f"  {'+' if att_pct >=0 else ''}{att_pct}% {att_type}"
                 elif att["operation"] == "add_multiplied_total":
                     formatted_att = f"  total x{att_value+1} {att_type}"
                 else:
-                    formatted_att = ""
+                    formatted_att = f"  Couldn't parse {att}"
                 
+                print(formatted_att)
+                if att_value == 0.2:
+                    print(res_dict["name"])
                 formatted_attributes.append(formatted_att)
                 
                 prev_slot = slot
@@ -283,7 +297,7 @@ def beautify_item(item):
 import time
 tic = time.time()
 dir_list = os.listdir("data")
-#dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt"]
+#dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt", "icharusWings.txt", "DivineBox.txt", "yellowpants.txt"]
 
 item_components = {}
 for file in dir_list:
