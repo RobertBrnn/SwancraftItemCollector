@@ -1,7 +1,6 @@
 TO-DO
 
 
-- Support more nbt tags
 - Improve output so it magically works with the table filtering stuff from google sheets
 - Add more comments and README
 
@@ -11,5 +10,6 @@ Done:
 - Splitting the singular file into multiple seperate files
 - Further cleaning of custom effects/Trails
 - Move beautification to seperate functions 
+- Support more nbt tags
 
 

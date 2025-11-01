@@ -20,7 +20,10 @@ def parse_collection(lore):
     if match_collection:
         if "Your limit" in match_collection[0][0]:
             return None
-        return {"collection": match_collection[0][0], "num": match_collection[0][1], "total": match_collection[0][2]}
+        collection_name = match_collection[0][0]
+        if collection_name[0] == ".":
+            collection_name = collection_name[1:].strip()
+        return {"collection": collection_name, "num": match_collection[0][1], "total": match_collection[0][2]}
     else:
         match_collection = re.findall(r"(?m)^[\n\s]*([\S\- ]+) #([0-9]+)[\n\s]*$", lore)
         
