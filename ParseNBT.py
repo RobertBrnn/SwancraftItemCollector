@@ -253,10 +253,9 @@ def beautify_item(item):
             prev_slot = ""
             for att in sorted_atts:
                 att_value = eval(att["amount"][:-1])
-                if att_value == 0:
-                    next
                 att_value = format_decimal(att_value, 3)
-                
+                if att_value == 0:
+                    next                
                 slot = get_if_exists(att, "slot", "any slot")
                 if slot != prev_slot:
                     formatted_attributes.append(f"When on/in {slot}")
@@ -273,9 +272,6 @@ def beautify_item(item):
                 else:
                     formatted_att = f"  Couldn't parse {att}"
                 
-                print(formatted_att)
-                if att_value == 0.2:
-                    print(res_dict["name"])
                 formatted_attributes.append(formatted_att)
                 
                 prev_slot = slot
