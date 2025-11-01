@@ -2,3 +2,4 @@ staging/*
 .spyproject/*
 *.xlsb
 data/*.txt
+output/*

@@ -1,0 +1,96 @@
+import roman
+
+
+
+def format_decimal(value, num_decimals):
+    
+    rounded_val = round(value, num_decimals)
+    int_rounded_val = int(rounded_val)
+
+    return int_rounded_val if int_rounded_val == rounded_val else rounded_val
+
+
+def get_if_exists(dictionary, key, alt = None):
+    if key in dictionary.keys():
+        return dictionary[key]
+    else:
+        return alt
+
+def beautify_item(item):
+    if isinstance(item, list):
+        return [beautify_item(i) for i in item]
+    elif isinstance(item, dict):       
+        
+        res_dict = {}
+        res_dict["name"] = get_if_exists(item, "custom_name_plaintext")
+        res_dict["minecraft_id"] = get_if_exists(item, "minecraft_id")
+        
+        unbreakable = get_if_exists(item, "minecraft:unbreakable")
+        res_dict["unbreakable"] = unbreakable is not None
+        
+        collection = get_if_exists(item, "collection")
+        if collection:
+            res_dict["collection_name"] = collection["collection"]
+            res_dict["collection_num"] = collection["num"]
+            res_dict["collection_total"] = collection["total"]
+        
+        contents = get_if_exists(item, "contents")
+        if contents:
+            res_dict["contents"] = beautify_item(contents)
+        
+        enchantments = get_if_exists(item, "minecraft:enchantments")
+        if enchantments:
+            formatted_enchantments_list = []
+            for k, v in enchantments.items():
+                if v == 1:
+                    formatted_enchantments_list.append(f"{k}")
+                elif v <= 10:
+                    formatted_enchantments_list.append(f"{k} {roman.toRoman(v)}")
+                else:
+                    formatted_enchantments_list.append(f"{k} {v}")
+            formatted_enchantments = "\n".join(formatted_enchantments_list)
+            formatted_enchantments = formatted_enchantments.replace("minecraft:", "")
+            res_dict["enchantments"] = formatted_enchantments
+            
+        att_mod = get_if_exists(item, "minecraft:attribute_modifiers")
+        if att_mod:
+
+            sorted_atts = sorted(att_mod, key=lambda d: get_if_exists(d,'slot', "zzzz"))
+            formatted_attributes = []
+            prev_slot = ""
+            for att in sorted_atts:
+                att_value = eval(att["amount"][:-1])
+                att_value = format_decimal(att_value, 3)
+                if att_value == 0:
+                    next                
+                slot = get_if_exists(att, "slot", "any slot")
+                if slot != prev_slot:
+                    formatted_attributes.append(f"When on/in {slot}")
+                
+                att_type = att['type'].replace('minecraft:','')
+                if att["operation"] == "add_value":
+                    formatted_att = f"  {'+' if att_value >=0 else ''}{att_value} {att_type}"
+                elif att["operation"] =="add_multiplied_base":
+                    att_pct = att_value * 100
+                    att_pct = format_decimal(att_pct, 1)
+                    formatted_att = f"  {'+' if att_pct >=0 else ''}{att_pct}% {att_type}"
+                elif att["operation"] == "add_multiplied_total":
+                    formatted_att = f"  total x{att_value+1} {att_type}"
+                else:
+                    formatted_att = f"  Couldn't parse {att}"
+                
+                formatted_attributes.append(formatted_att)
+                
+                prev_slot = slot
+                
+            res_dict["attribute_modifiers"] = "\n".join(formatted_attributes)
+
+        trail = get_if_exists(item, "trail")
+        if trail:
+            res_dict["trail"] = trail
+        
+        ce = get_if_exists(item, "custom_effect")
+        if ce:
+            formatted_ce = "\n".join(ce)
+            res_dict["custom_effect"] = formatted_ce
+        return res_dict
