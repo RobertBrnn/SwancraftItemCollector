@@ -12,6 +12,9 @@ import NBTBeautifier
 DATA_DIR = "./data"
 OUTPUT_DIR = "./output"
 
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+    
 #%% Reading in all files in DATA_DIR
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)

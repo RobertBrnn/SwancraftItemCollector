@@ -19,6 +19,9 @@ args = parser.parse_args()
 DATA_DIR = args.input
 OUTPUT_DIR = args.output
 
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+
 #%% Reading in all files in DATA_DIR
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)
