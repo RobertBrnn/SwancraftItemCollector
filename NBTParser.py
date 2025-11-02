@@ -12,6 +12,9 @@ import NBTBeautifier
 DATA_DIR = "./data"
 OUTPUT_DIR = "./output"
 
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+    
 #%% Reading in all files in DATA_DIR
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)
@@ -73,5 +76,5 @@ df = pd.DataFrame(custom_items)
 df.to_csv(f"{OUTPUT_DIR}/batch1.csv", index=False)
 
 toc = time.time()
-print(f"Done writing json {toc-tic:.2f}s")
+print(f"Done writing csv {toc-tic:.2f}s")
 
