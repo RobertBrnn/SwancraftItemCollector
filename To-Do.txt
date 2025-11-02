@@ -1,5 +1,6 @@
 TO-DO
 
+- Add README
 - Improve options for manual modifications
 - Add way to select which items to keep in final list
 
@@ -10,7 +11,7 @@ Done:
 - Further cleaning of custom effects/Trails
 - Move beautification to seperate functions 
 - Support more nbt tags
-- Add more comments and README
+- Add more comments
 
 
 
