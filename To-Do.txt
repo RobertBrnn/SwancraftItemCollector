@@ -1,8 +1,7 @@
 TO-DO
 
-
-- Improve output so it magically works with the table filtering stuff from google sheets
-- Add more comments and README
+- Improve options for manual modifications
+- Add way to select which items to keep in final list
 
 Done:
 - Improved beautification of attribute_modifiers
@@ -11,5 +10,9 @@ Done:
 - Further cleaning of custom effects/Trails
 - Move beautification to seperate functions 
 - Support more nbt tags
+- Add more comments and README
 
 
+
+Can't do
+- Improve output so it magically works with the table filtering stuff from google sheets

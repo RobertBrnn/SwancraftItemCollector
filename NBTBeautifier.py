@@ -1,7 +1,7 @@
 import roman
 #%%
 def format_decimal(value, num_decimals):
-    
+    # Round value and make it an integer if the rounded value is equal to the int
     rounded_val = round(value, num_decimals)
     int_rounded_val = int(rounded_val)
 
@@ -9,13 +9,14 @@ def format_decimal(value, num_decimals):
 
 
 def get_if_exists(dictionary, key, alt = None):
+    # Get a value from a dict if it is present, otherwise return 'alt'
     if key in dictionary.keys():
         return dictionary[key]
     else:
         return alt
 
 def beautify_collection(item):
-    
+    # Collection is put in a dict with 'collection', 'num' and 'total'
     if "collection" in item.keys() and item["collection"]:
         collection = item["collection"]
         return {
@@ -27,10 +28,11 @@ def beautify_collection(item):
         return {}
     
 def beautify_enchantments(item):
-    
+    # Enchantments are in a list with the enchantment as key and the level as the value
     if "minecraft:enchantments" in item.keys() and item["minecraft:enchantments"]:
         enchantments = item["minecraft:enchantments"]
         formatted_enchantments_list = []
+
         for k, v in enchantments.items():
             if v == 1:
                 formatted_enchantments_list.append(f"{k}")
@@ -50,6 +52,7 @@ def beautify_attribute_modifiers(item):
     if "minecraft:attribute_modifiers" in item.keys() and item["minecraft:attribute_modifiers"]:
         att_mod = item["minecraft:attribute_modifiers"]
         
+        # Order the attribute_modifiers by slot with 'any' last
         sorted_atts = sorted(att_mod, key=lambda d: get_if_exists(d,'slot', "zzzz"))
         formatted_attributes = []
         prev_slot = ""
@@ -64,12 +67,15 @@ def beautify_attribute_modifiers(item):
             
             att_type = att['type'].replace('minecraft:','')
             if att["operation"] == "add_value":
+                # Flat increase of a value
                 formatted_att = f"  {'+' if att_value >=0 else ''}{att_value} {att_type}"
             elif att["operation"] =="add_multiplied_base":
+                # Flat increase of x percentpoint to the base
                 att_pct = att_value * 100
                 att_pct = format_decimal(att_pct, 1)
                 formatted_att = f"  {'+' if att_pct >=0 else ''}{att_pct}% {att_type}"
             elif att["operation"] == "add_multiplied_total":
+                # Increase of x percent to the total
                 formatted_att = f"  total x{att_value+1} {att_type}"
             else:
                 formatted_att = f"  Couldn't parse {att}"
@@ -83,14 +89,15 @@ def beautify_attribute_modifiers(item):
         return {}
         
 def beautify_potion_contents(item):
-        
     if "minecraft:potion_contents" in item.keys() and item["minecraft:potion_contents"]:
         potion_contents = item["minecraft:potion_contents"]
         effect_list = []
         if "potion" in potion_contents.keys():
+            # Vanilla potions don't have explicit effects, but only a name
             vanilla_potion = potion_contents["potion"].replace("minecraft:", "")
             effect_list.append(f"{vanilla_potion}")
         if "custom_effects" in potion_contents.keys():
+            # Duration of custom effects is in ticks (20/sec)
             custom_effects = potion_contents["custom_effects"]
             for ce in custom_effects:
                 effect_id = ce["id"].replace("minecraft:", "")
@@ -115,6 +122,7 @@ def beautify_potion_contents(item):
         return {}
 
 def beautify_item(item):
+    # Transform the nested dicts and lists into a flat(ish) dict which could be exported as a table
     if isinstance(item, list):
         return [beautify_item(i) for i in item]
     elif isinstance(item, dict):       
