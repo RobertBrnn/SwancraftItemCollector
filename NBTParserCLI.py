@@ -7,16 +7,22 @@ import NBTReader
 import NBTProcessor
 import NBTBeautifier
         
+import argparse
+
+#%% Parse cmdline arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("-i", "--input", help = "input folder")
+parser.add_argument("-o", "--output", help = "output folder")
+args = parser.parse_args()
     
 #%% Arguments
-DATA_DIR = "./data"
-OUTPUT_DIR = "./output"
+DATA_DIR = args.input
+OUTPUT_DIR = args.output
 
 #%% Reading in all files in DATA_DIR
 tic = time.time()
 dir_list = os.listdir(DATA_DIR)
-#dir_list = ["elementsLightBlue.txt", "T-51b Power Armor.txt", "icharusWings.txt", "DivineBox.txt", "yellowpants.txt", "ecoDestroyer.txt"]
-#dir_list = ["elementsLightBlue.txt"]
+
 
 item_components = {}
 for file in dir_list:
@@ -70,8 +76,8 @@ fixed_custom_items = sorted(NBTProcessor.apply_modification(custom_items, manual
 
 #%% Export item list to csv
 df = pd.DataFrame(custom_items)
-df.to_csv(f"{OUTPUT_DIR}/batch1.csv", index=False)
+df.to_csv(f"{OUTPUT_DIR}/SwancraftItems.csv", index=False)
 
 toc = time.time()
-print(f"Done writing json {toc-tic:.2f}s")
+print(f"Done writing csv {toc-tic:.2f}s")
 
