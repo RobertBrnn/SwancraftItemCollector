@@ -2,3 +2,5 @@ staging/*
 .spyproject/*
 *.xlsb
 data/*.txt
+output/*
+__pycache__/
